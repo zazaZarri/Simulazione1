@@ -1,0 +1,8 @@
+Nella repository locale il working tree è l'ambiente dove si sta sviluppando in quel momento preciso dove le modifiche ancora non sono salvate, la staging area è il momento in cui i file vengono preparati per essere commitati, quindi una volta fatto il commit i file vengono salvati localmente tramiti codici univoci.
+
+dopo git add ci troviamo nella staging mentre dopo git commit salviamo una versione del nostro software nella repo locale.
+
+
+2) il git fetch prende le modifiche fatte da remoto e le carica nel tuo progetto locale, senza pero andarle ad implementare nel tuo lavoro corrente, mentre il git merge, dopo aver fatto il fetch delle modifiche in remoto, o anche mantendo quelle locali, unisce le modifiche al ramo corrente dove si sta lavoranto.
+
+3) uno crea un Issue specificando quel è il problema da fixare o features da aggiungere e lo assegna come compito ad un collaborator, quel collaborator per risolvere issue allora crea un branch dove va a sviluppare la sua soluzione, quando ha finito fa il commit e push, per integrarlo con il progetto effetivo si effetua una pull request, e chi si occupa di revisionare le pull reqeust valuta se quella modifica è idonea o no, se viene accettata viene chiuso issue e segnato come risolto e il lavoro viene unito tramite merge al progetto effetivo
